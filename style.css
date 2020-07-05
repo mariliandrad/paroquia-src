@@ -1,0 +1,224 @@
+main {
+    margin-top: 94px;
+}
+
+section {
+    padding: 100px 30px 100px 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    align-items: center;
+    top: 0;     
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-bottom: 4px solid #8b0000;
+    margin-bottom: 30px;
+}
+
+.title {
+display: inline;
+padding-left: 50px;
+color: #8b0000;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-home {
+    display: flex;
+}
+
+.links {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 2px solid #8b0000;
+    color: #8b0000;
+    text-decoration: none;
+}
+
+.links:hover {
+    background-color: #8b0000;
+    color: #ffffff;
+    transition: .3s;
+}
+
+.home {
+    background-image: url("img/Santa-Rita2.jpg");
+    background-color: #8b0000;
+    background-size: cover;
+    height: 540px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.brasao-psrc {
+    width: 100px;
+    margin-left: 30px;
+}
+
+.endereco {
+    margin-left: 80px;
+    font-weight: bold;
+}
+
+.endereco a {
+    color: white;
+    text-decoration: none;
+}
+
+.endereco a:hover {
+    color: #8b0000;
+    transition: .3s;
+}
+
+#historia {
+    background-color: #ffffff;
+    color: #8b0000;
+    text-align: center;
+    border-bottom: 2px solid #8b0000;
+}
+
+#informacoes {
+    background-color: #ffffff;
+    color: #8b0000;
+    text-align: center;
+    border-bottom: 2px solid #8b0000;
+    line-height: 50px;
+}
+
+.igrejas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.igreja table td,
+.igreja table th {
+    border: 1px solid #8b0000;
+    padding: 8px ;
+}
+
+.igreja table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#gruposepastorais {
+    background-color: #ffffff;
+    color: #8b0000;
+    text-align: center;
+    border-bottom: 2px solid #8b0000;
+    line-height: 50px;
+}
+
+#gruposepastorais ul {
+    max-width: 600px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items: center;
+   margin: 0 auto;
+}
+
+#gruposepastorais li {
+    padding: 8px;
+    margin: px 2px;
+    color:#8b0000;
+ }
+
+#contato {
+    background-color: #ffffff;
+    color: #8b0000;
+    text-align: center;
+    border-bottom: 2px solid #8b0000;
+    line-height: 50px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.style-form input,
+.style-form textarea {
+    display: block;
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+}
+
+.button {
+    background-color: white;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #8b0000;
+}
+
+.button:hover {
+    background-color: #8b0000;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    transition: .3s;
+}
+
+.follow {
+    text-align: center;
+    background-color: #ffffff;
+    color: #8b0000;
+}
+
+.follow ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 10px;
+    margin-top: 20px;
+}
+
+.follow img {
+    width: 50px;
+    text-align: center;
+}
+
+.follow a {
+    text-decoration: none;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8b0000;
+    color: white;
+    padding: 20px;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: white;
+}
+
+.link-footer:hover {
+    color: #00538b;
+    transition: .3s;
+}

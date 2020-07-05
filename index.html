@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paróquia Santa Rita de Cássia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <header class="header">
+        <!-- Imagem (Brasão da Paróquia) -->
+        <div class="header-logo">
+            <img src="img/rose.png" alt="Logo Rosa Vermelha" width="50px">
+            <h1 class="title">Paróquia Santa Rita de Cássia</h1>
+        </div>
+
+        <!-- Nave -->
+        <div class="nav">
+            <nav>
+                <ul class="nav-home">
+                    <li>
+                        <a href="#historia" class="links">História</a>
+                    </li>
+                    <li>
+                        <a href="#informacoes" class="links">Informações</a>
+                    </li>
+                    <li>
+                        <a href="#gruposepastorais" class="links">Grupos e Pastorais</a>
+                    </li>
+                    <li>
+                        <a href="#contato" class="links">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Banner -->
+        <section class="home">
+            <img class="brasao-psrc" src="./img/brasao-psrc.png" alt="Brasão da Paróquia Santa Rita de Cássia">
+            <p class="endereco"><a
+                    href="https://www.google.com/maps/dir//Igreja+Matriz+de+Santa+Rita+de+C%C3%A1ssia+Camaragibe+-+PE,+54768-120/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x7ab1a5941c13de5:0xc18595b2203fa11b?sa=X&ved=2ahUKEwjcldDa4bbqAhUmILkGHXS2DDAQ9RcwF3oECBEQDw"
+                    target="_blank">
+                    Av.
+                    Ercina Lapenda, 917 - Timbi, Camaragibe - PE.</a></p>
+        </section>
+
+        <!-- História -->
+        <section id="historia">
+            <h2>História</h2>
+            <p>Fundada em 15 de Novembro de 1984.</p>
+        </section>
+
+        <!-- Informações -->
+        <section id="informacoes">
+            <h2>
+                Horários das Missas
+            </h2>
+
+            <!--Paróquia Santa Rita de Cássia -->
+            <div class="igrejas">
+                <div class="igreja">
+                    <h3>Paróquia Santa Rita de Cássia</h3>
+                    <table>
+                        <tr>
+                            <th>Terça</th>
+                            <th>Quarta</th>
+                            <th>Quinta</th>
+                            <th>Sábado</th>
+                            <th>Domigo</th>
+                        </tr>
+                        <tr>
+                            <td>19h</td>
+                            <td>19h</td>
+                            <td>19h</td>
+                            <td>19h</td>
+                            <td>7h30, 11h, 17h</td>
+                        </tr>
+                    </table>
+                    <p>Missas presenciais e transmitidas.</p>
+                </div>
+
+                <!-- Igreja Nossa Senhora de Fátima -->
+                <div class="igreja">
+                    <h3>Igreja Nossa Senhora de Fátima</h3>
+                    <table>
+                        <tr>
+                            <th>Sábado</th>
+                            <th>Domigo</th>
+                        </tr>
+                        <tr>
+                            <td>17h</td>
+                            <td>19h</td>
+                        </tr>
+                    </table>
+                    <p>Missas presenciais.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Grupos e Pastorais -->
+        <section id="gruposepastorais">
+            <h2>Grupos e Pastorais</h2>
+            <ul>
+                <li>Catequese</li>
+                <li>Liturgia</li>
+                <li>Música</li>
+                <li>Pastoral da Acolhida</li>
+                <li>Pastoral da Criança</li>
+                <li>Pastoral da Comunicação</li>
+                <li>Pastoral do Dizímo</li>
+                <li>Pastoral de Eventos</li>
+                <li>Pastoral Familiar</li>
+                <li>Pastoral Social</li>
+            </ul>
+        </section>
+
+
+        <!-- Contato -->
+        <section id="contato">
+            <h2>Envie sua mensagem!</h2>
+            <div>
+                <form action="/dados-do-form" method="post">
+                    <!-- Nome -->
+                    <div class="style-form">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" placeholder="Escreva seu nome">
+                    </div>
+                    <!-- E-mail-->
+                    <div class="style-form">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="Escreva seu e-mail">
+                    </div>
+                    <!-- Mensagem -->
+                    <div class="style-form">
+                        <label for="msg">Mensagem:</label>
+                        <textarea id="msg" placeholder="Escreva sua mensagem"></textarea>
+                    </div>
+                    <!-- Botão -->
+                    <div>
+                        <button class="button" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Redes Sociais -->
+        <section class="follow">
+            <h2>
+                Siga-nos!
+            </h2>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/paroquiasantaritadecassiaa" target="_blank">
+                        <img src="img/facebook-circular-logo.svg" alt="Icone Facebook">
+                        Facebook</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/paroquiasantaritadecassiaa" target="_blank">
+                        <img src="img/instagram.svg" alt="Icone Instagram">
+                        Instagram</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCYkh73Ted-KklYG66t1GrxQ" target="_blank">
+                        <img src="img/youtube.svg" alt="Icone YouTube">
+                        YouTube</a>
+                </li>
+        </section>
+
+        <!-- Rodapé -->
+        <footer class="footer">
+            <p>Design by<a class="link-footer" href="https://www.instagram.com/travessodesign" target="_blank"> Travesso
+                    Design
+                </a> - 2020 ©</p>
+        </footer>
+    </main>
+</body>
+
+</html>
